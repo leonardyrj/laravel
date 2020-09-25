@@ -23,7 +23,7 @@ steps:
     name: 'docker'
     args: [ 'exec','-t','app','php','/var/www/artisan','migrate']
 
-  - id: "Rodando php unit"
+  - id: "Rodando phpunit"
     name: 'docker'
     args: [ 'exec','-t','app','php','/var/www/vendor/phpunit','-c','/var/www/phpunit.xml']
 

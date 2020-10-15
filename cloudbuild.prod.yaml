@@ -28,10 +28,10 @@ steps:
     args: [ 'exec','-t','app','php','/var/www/vendor/phpunit','-c','/var/www/phpunit.xml']
 
   - id: "Building image from Dockerfile.prod"
-    name: 'gcr.io/cloud/builders/docker'
+    name: 'gcr.io/cloud-builders/docker'
     args: ['build','-t','grc.io/$PROJECT_ID/app-laravel:$SHORT_SHA','-f','Dockerfile.prod','.']
 
   - id: "Pushing image"
-    name: 'gcr.io/cloud/builders/docker'
+    name: 'gcr.io/cloud-builders/docker'
     args: [ 'push','grc.io/$PROJECT_ID/app-laravel:$SHORT_SHA']
 

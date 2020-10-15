@@ -20,7 +20,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37d581be-d853-484c-9e64-d55ac1c197b9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/cloudbuild.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudbuild.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile.prod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudbuild.prod.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/app/configmap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/app/deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/app/service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/mysql/deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/mysql/persistent-volume.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/mysql/service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/nginx/configmap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/nginx/deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/nginx/service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/redis/redis.deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docker/dbdata/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/.docker/dbdata/ib_buffer_pool" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docker/dbdata/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/.docker/dbdata/ib_logfile0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docker/dbdata/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/.docker/dbdata/ibdata1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docker/dbdata/ibtmp1" beforeDir="false" afterPath="$PROJECT_DIR$/.docker/dbdata/ibtmp1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,6 +180,8 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/k8s/nginx" />
+      <recent name="$PROJECT_DIR$/k8s/mysql" />
       <recent name="$PROJECT_DIR$/.docker/app" />
     </key>
   </component>
@@ -187,7 +205,9 @@
       <workItem from="1600103658249" duration="22000" />
       <workItem from="1600955450620" duration="1915000" />
       <workItem from="1601001518265" duration="642000" />
-      <workItem from="1601062029178" duration="2917000" />
+      <workItem from="1601062029178" duration="3404000" />
+      <workItem from="1601065448824" duration="5000" />
+      <workItem from="1602724260590" duration="5232000" />
     </task>
     <servers />
   </component>
@@ -207,6 +227,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2551" y="332" width="638" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602729389188">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2551" y="332" width="638" height="403" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1080/0.27.1920.999@1920.0.1920.1080" timestamp="1602729389188" />
     <state x="2613" y="275" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600010312742">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>

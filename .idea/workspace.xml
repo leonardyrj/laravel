@@ -20,8 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37d581be-d853-484c-9e64-d55ac1c197b9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.docker/dbdata/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/.docker/dbdata/ib_buffer_pool" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docker/dbdata/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/.docker/dbdata/ib_logfile0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docker/dbdata/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/.docker/dbdata/ibdata1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docker/dbdata/ibtmp1" beforeDir="false" afterPath="$PROJECT_DIR$/.docker/dbdata/ibtmp1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile.prod" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile.prod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k8s/nginx/deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s/nginx/deployment.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +198,8 @@
       <workItem from="1601065448824" duration="5000" />
       <workItem from="1602724260590" duration="6704000" />
       <workItem from="1602769682013" duration="1328000" />
-      <workItem from="1602814380000" duration="7378000" />
+      <workItem from="1602814380000" duration="8656000" />
+      <workItem from="1602842578075" duration="20000" />
     </task>
     <servers />
   </component>

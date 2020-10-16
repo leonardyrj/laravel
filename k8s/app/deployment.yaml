@@ -20,7 +20,7 @@ spec:
             - containerPort: 80
 
           env:
-            - name: DB_PASSWWORD
+            - name: DB_PASSWORD
               valueFrom:
                 secretKeyRef:
                   name: mysql-pass

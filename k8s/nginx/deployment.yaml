@@ -14,8 +14,8 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: nginx:1.17-alpine
-          command: ["/bin/sh","-c","touch /usr/share/nginx/html/index.php; ngnix -g 'daemon off;'"] # Criando o arquivo index.php para o ngnix acessar o app
+          image: nginx:latest
+          #command: ["/bin/sh","-c","touch /usr/share/nginx/html/index.php; ngnix -g 'daemon off;'"] # Criando o arquivo index.php para o ngnix acessar o app
           ports:
             - containerPort: 80
 

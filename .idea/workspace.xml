@@ -26,6 +26,8 @@
       <change beforePath="$PROJECT_DIR$/.docker/dbdata/ibtmp1" beforeDir="false" afterPath="$PROJECT_DIR$/.docker/dbdata/ibtmp1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloudbuild.prod.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudbuild.prod.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k8s/app/deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s/app/deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k8s/nginx/deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s/nginx/deployment.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,7 +199,8 @@
       <workItem from="1601062029178" duration="3404000" />
       <workItem from="1601065448824" duration="5000" />
       <workItem from="1602724260590" duration="6704000" />
-      <workItem from="1602769682013" duration="713000" />
+      <workItem from="1602769682013" duration="1328000" />
+      <workItem from="1602814380000" duration="864000" />
     </task>
     <servers />
   </component>
